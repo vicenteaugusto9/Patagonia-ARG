@@ -63,12 +63,18 @@ body {
 
     & li {
       display: flex;
-      & a {
+      & .a-nav {
         color: white;
         text-decoration: none;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
       }
     }
   }
+}
+.a-nav:hover{
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
 
 .title-header {
@@ -113,6 +119,8 @@ main {
     border-radius: 10px;
     border: none;
     box-shadow: 2px 4px 6px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
 
     background-color: rgb(103, 237, 103);
 
@@ -124,6 +132,10 @@ main {
     }
   }
 }
+button:hover{
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
 .cards {
   display: flex;
   margin: 20px;
@@ -133,6 +145,7 @@ main {
   gap: 30px;
   box-shadow: 2px 4px 6px;
   border-radius: 10px;
+  position: relative;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 
   & img {
@@ -140,7 +153,7 @@ main {
     height: 300px;
   }
 }
-.cards-main :hover {
+.cards:hover {
   transform: translateY(-10px) scale(1.02);
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
@@ -169,6 +182,8 @@ main {
   border-radius: 10px;
   border: none;
   box-shadow: 2px 4px 6px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
 
   background-color: rgb(103, 237, 103);
 
