@@ -30,3 +30,42 @@
     }
   }
   
+  @media (max-width: 480px) {
+    .container {
+      width: 90%;
+      margin: 10px;
+    }
+  
+    .cards-main {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .cards {
+      width: 100%;
+    }
+  
+    .text-card {
+      width: 100%;
+      height: auto;
+    }
+  
+    .b-cards, .bottom button {
+      width: 100%;
+    }
+  
+    .title-header, .title-main {
+      font-size: 20px;
+    }
+  
+    footer {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .nav-header ul, .nav-footer ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
