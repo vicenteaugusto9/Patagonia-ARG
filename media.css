@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+    body {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .container {
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+    }
+  
+    .top-header, .cards-main, .info {
+      flex-direction: column;
+      gap: 20px;
+      text-align: center;
+    }
+  
+    .cards {
+      width: 100%;
+    }
+  
+    .text-card {
+      width: 100%;
+      height: auto;
+    }
+  
+    .b-cards, .bottom button {
+      width: 100%;
+    }
+  }
+  
